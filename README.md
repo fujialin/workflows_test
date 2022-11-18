@@ -61,3 +61,9 @@ bin/Runner.Listener run --startuptype service
 
 # 缺的库
 graphviz
+
+1.从 https://github.com/rockchip-linux/rknn-toolkit/raw/master/platform-tools/ntp/linux-aarch64/npu_transfer_proxy 下载文件；
+2.mkdir -p /usr/rk_bins && cp -rf npu_transfer_proxy /usr/rk_bins && chmod +x /usr/rk_bins/npu_transfer_proxy;
+3.升级新版本agent,删除旧的工程，重新创建新的工程；
+4.重启设备后运行新工程；
+5.以后按正常步骤创建工程即可。
